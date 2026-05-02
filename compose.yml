@@ -1,0 +1,18 @@
+services:
+  app:
+    image: ghcr.io/brahima-fofana/nsiago-assur:latest
+    restart: always
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    networks:
+      - shared-network
+
+
+volumes:
+  mysql_data:
+
+networks:
+  shared-network:
+    external: true

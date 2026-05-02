@@ -1,0 +1,41 @@
+spring:
+  application:
+    name: nsiago
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/nsiago_assur_db
+    username: zeus
+    password: premier
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        format-sql: true
+
+#EN DEV
+#  mail:
+#    host: localhost
+#    port: 9025
+
+#EN PROD
+  mail:
+    host: nitrate.o2switch.net
+    port: 465
+    username: no-reply@nsiago-assur.devbrahima.com
+    password: )kUC)S1=g,f^iyA1
+    properties:
+      mail:
+        smtp:
+          auth: true
+          ssl:
+            enable: true
+
+server:
+  port: 8000
+  servlet:
+    context-path: /api
