@@ -3,7 +3,7 @@ spring:
     name: nsiago
 
   datasource:
-    url: jdbc:mysql://localhost:3306/nsiago_assur_db
+    url: jdbc:mysql://db:3306/nsiago_assur_db
     username: zeus
     password: premier
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -36,6 +36,6 @@ spring:
             enable: true
 
 server:
-  port: 8000
+  port: 8080
   servlet:
     context-path: /api

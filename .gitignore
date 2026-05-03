@@ -32,5 +32,9 @@ build/
 ### VS Code ###
 .vscode/
 
+mvn.*
+.mvn/
+
+src/main/resources/application.yaml
 .dockerignore
 .env
