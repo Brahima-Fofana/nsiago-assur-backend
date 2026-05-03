@@ -27,7 +27,7 @@ spring:
     host: nitrate.o2switch.net
     port: 465
     username: no-reply@nsiago-assur.devbrahima.com
-    password: )kUC)S1=g,f^iyA1
+    password: xxxxxxxxxxxxxxxxxx
     properties:
       mail:
         smtp:
