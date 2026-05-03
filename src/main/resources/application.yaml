@@ -4,8 +4,8 @@ spring:
 
   datasource:
     url: jdbc:mysql://db:3306/nsiago_assur_db
-    username: zeus
-    password: premier
+    username: User
+    password: Password
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
@@ -27,7 +27,7 @@ spring:
     host: nitrate.o2switch.net
     port: 26
     username: no-reply@nsiago-assur.devbrahima.com
-    password: )kUC)S1=g,f^iyA1
+    password: xxxxxxxxxxxxxxx
     properties:
       mail:
         smtp:
