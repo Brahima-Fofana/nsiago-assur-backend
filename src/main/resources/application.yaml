@@ -25,15 +25,13 @@ spring:
 #EN PROD
   mail:
     host: nitrate.o2switch.net
-    port: 465
+    port: 26
     username: no-reply@nsiago-assur.devbrahima.com
-    password: xxxxxxxxxxxxxxxxxx
+    password: )kUC)S1=g,f^iyA1
     properties:
       mail:
         smtp:
           auth: true
-          ssl:
-            enable: true
 
 server:
   port: 8080
